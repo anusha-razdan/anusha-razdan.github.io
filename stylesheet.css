@@ -1,1 +1,33 @@
-"Hello World" 
+/* styles.css */
+
+/* Apply style to the header */
+#header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Apply style to navigation links */
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+}
+
+/* Apply style to sections */
+.section {
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+/* Change color of links on hover */
+nav a:hover {
+    color: #007bff;
+}
+
+/* Change box model properties of image */
+#image-container img {
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+} 
